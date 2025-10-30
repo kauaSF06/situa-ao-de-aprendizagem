@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+
+inteiro conta, quantidadeP
+escreva("quanto ficou a conta: ")
+leia(conta)
+escreva("quantas pessoas tem na mesa: ")
+leia(quantidadeP)
+escreva("cade pessoa deve pagar: ", conta / quantidadeP)
+  }
+}
+
+
