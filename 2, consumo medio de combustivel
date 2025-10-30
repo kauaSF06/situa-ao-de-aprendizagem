@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    //viagem de combustivel consumo medio de litros do carro/ solicite km, solicite o consumo de litros e exiba
+    real km, litros, media
+    escreva("escreva quantos km percorreu: ")
+    leia(km)
+    escreva("escreva a quantidade de litros gastos: ")
+    leia(litros)
+    media = km/litros
+    escreva("a media de combustivel gasto e km/ltros e: ", media)
+  }
+}
