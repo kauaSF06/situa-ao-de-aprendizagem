@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro valor
+    real desconto, valorcomdesconto
+    cadeia dia
+    escreva("qual e o valor da compra\n")
+    leia(valor)
+    escreva("que dia de semana e\n")
+    leia(dia)
+    desconto = valor * 0.10
+    valorcomdesconto = valor - desconto
+
+    se((dia == "sabado") ou (dia == "domingo")){
+      escreva("o valor com desconto e", valorcomdesconto)
+      
+    }senao
+    escreva("valor continua o mesmo", valor)
+  }
+}
