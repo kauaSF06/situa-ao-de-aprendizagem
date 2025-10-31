@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+   inteiro socio
+   escreva("voce e socio? 1 para sim, 2 para nao\n")
+   leia(socio)
+   se((socio != 1) e (socio != 2)) {
+    escreva("inválido")
+   } senao se (socio == 1){
+    escreva("acesso permitido")
+   }
+   senao
+   escreva("acesso negado")
+   }
+}
