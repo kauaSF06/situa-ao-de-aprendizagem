@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro setores
+    escreva("1 -- setor financeiro\n ")
+    escreva("2 -- setor de ti\n ")
+    escreva("3 -- setor de marketing\n ")
+    escreva("4 -- setor de operaçoes\n")
+    leia(setores)
+    escolha(setores){
+      caso 1: 
+      escreva("setor financeiro")
+      pare
+
+      caso 2:
+      escreva("setor de ti")
+      pare
+
+      caso 3:
+      escreva("setor de marketing")
+      pare
+
+      caso 4:
+      escreva("setor de operaçoes")
+      pare
+    }
+  }
+}
