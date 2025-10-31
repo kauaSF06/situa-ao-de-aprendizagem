@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro idade, tempContribuicao
+    escreva("escreva sua idade\n")
+    leia(idade)
+    escreva("escreva o tempo de contribuiçao\n")
+    leia(tempContribuicao)
+    se((idade>=65) ou (tempContribuicao>30)){
+      escreva("parabens, pode se aposentar")
+    }senao
+    escreva("nao pode se aposentar")
+  }
+}
