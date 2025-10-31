@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real saque, saldo, novosaldo
+    escreva("digite o valor do seu saldo: ")
+    leia(saldo)
+    escreva("escreva o valor do seu saque")
+    leia(saque)
+    novosaldo = saldo - saque
+    se (saldo>saque){
+        escreva("saque realizado: ")
+        escreva("o novo saldo e: ", novosaldo)
+    }
+    senao
+    escreva("nao ha saldo suficiente")
+  }
+}
