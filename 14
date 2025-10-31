@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    inteiro num1
+    escreva("escreva o numero para verificar se o numero e par ou impar")
+    leia(num1)
+    se(num1%2 == 0){
+      escreva ("o numero e par")
+    }senao
+    escreva("o numero e impar")
+  }
+}
