@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+  inteiro opcao
+  escreva( " ----- menu de opçoes -----\n")
+  escreva("1 - cachorro quente\n")
+  escreva("2 - hamburguer\n")
+  escreva("3 - suco\n")
+  escreva("4 - refrigerante\n")
+  leia(opcao)
+
+  escolha(opcao){
+    caso 1:
+    escreva(" o cachorro quente e 22 reais\n ")
+    pare
+
+    caso 2:
+    escreva( "o hambuerguer e 27 reais\n")
+    pare
+
+    caso 3:
+    escreva(" o suco e 3 reais\n")
+    pare
+    
+    caso 4:
+    escreva(" o refrigerante e 20 reais")
+    pare
+
+  }
+
+  }
+}
