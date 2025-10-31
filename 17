@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real media
+    inteiro frequencia
+    escreva("digite sua media\n")
+    leia(media)
+    escreva("escreva o percentual de sua frequencia\n")
+    leia(frequencia)
+    se((media>7.0) e (frequencia>75)){
+      escreva("voce foi aprovado")
+    }senao
+    escreva("voce foi reprovado")
+  }
+}
