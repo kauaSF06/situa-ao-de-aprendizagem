@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    escreva("escreva o login de cadastro\n")
+    cadeia nome, senha
+    escreva("nome\n")
+    leia(nome)
+    escreva("senha\n")
+    leia(senha)
+    se((nome == "maicon") e(senha=="k161616"))
+    escreva("login valido")
+    senao
+    escreva("errado, digite novamenete ")
+
+
+}
+}
