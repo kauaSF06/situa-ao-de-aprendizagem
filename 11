@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    real produto
+    escreva("digite o valor do produto: ")
+    leia(produto)
+    se(valor>100){
+      escreva("ganhou frete gratis")
+    }senao
+    escreva("nao ganhou frete gratis")
+  }
+}
