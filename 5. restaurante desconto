@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    real desconto,valordoproduto, valortotal
+    escreva("digite o valor do produto: ")
+    leia(valordoproduto)
+    desconto = (valordoproduto * 0.10)
+    valortotal = valordoproduto - desconto
+    escreva("o valor total do produto com o desconto: ", valortotal)
+  }
+}
