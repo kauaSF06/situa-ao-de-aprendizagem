@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real peca, i
+    escreva("digite o tamanho da peça: ")
+    leia(peca)
+    se((peca>5.0) e (peca<5.5)){
+      escreva("o tamanho esta correto")
+    }
+    senao
+    escreva("o tamanho esta incorreto")
+    }
+  }
+}
