@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro rendamensal, restricao
+    escreva("escreva sua renda mensal: ")
+    leia(rendamensal)
+    escreva("escreva se voce tem restiçao no spc, 1 para sim, 2 para nao\n")
+    leia(restricao)
+    se((restricao!=1) e (restricao!=2)){
+      escreva("opçao invalida")
+      
+    }senao se((restricao == 1) ou (rendamensal<2000)){
+      escreva("nao aprovamos o emprestimo")
+    }
+   senao se((restricao == 2) e (rendamensal>=2000)) {
+    escreva("aprovamos o emprestimo")
+   }
+  }
+}
