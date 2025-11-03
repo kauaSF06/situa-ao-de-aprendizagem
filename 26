@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    cadeia senha, senha1 
+    inteiro contador
+    contador = 0
+    escreva( "escreva a seenha do seu dispostivo: ")
+    senha = "SENAI1234"
+    leia(senha1)
+    enquanto(senha1 != senha){
+      escreva("senha incorreta \n")
+      escreva("digite a senha novamente: ")
+      leia(senha1)
+    contador++
+      
+    }
+    se(senha == senha1)
+    escreva("senha esta correta")
+    
+
+  }
+}
