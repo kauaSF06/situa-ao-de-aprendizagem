@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro num1, numescolhido
+    escreva("advinhe um numero entre 0 e 50: ")
+    numescolhido = 42
+    leia(num1)
+    
+    enquanto(num1 != numescolhido){
+      
+      escreva("numero esta incorreto tente novsmente\n")
+      leia(num1)
+    }escreva("o numero esta correto")
+      }
+      
+    }
+  }
+}
