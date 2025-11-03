@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+
+    /*30. Indústria (Soma de Produção): Um operador de máquina precisa somar a produção do
+dia. Solicite que ele digite os valores de produção de cada hora. Ele deve digitar 0 (zero)
+para parar. Enquanto o valor digitado for diferente de 0, some esse valor a um total. No
+final, exiba a produção total do dia.*/
+
+    inteiro soma = 0, valorProducao, contador = 1
+
+    enquanto (contador != 0) {
+      escreva("Digite o valor da produção atual:\n")
+      leia(valorProducao)
+      limpa()
+
+      soma += valorProducao
+
+    escreva("======================\n")
+
+      escreva("Digite 0 para parar:\n")
+      leia(contador)
+    }
+    escreva("Produção total do dia: ", soma)
+  }
+}
