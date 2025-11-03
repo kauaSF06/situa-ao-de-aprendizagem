@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro nota
+    escreva("escreva a nota entre 0 e 10\n")
+    leia(nota)
+    enquanto((nota<0) ou (nota>10)){
+      escreva("nota invalida, digite novamente")
+      leia(nota)
+    }se((nota>=0) e (nota<=10)){
+      escreva("a sua nota esta dentro dos parametros")
+    }
+  }
+}
