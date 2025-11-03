@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    cadeia estados
+    escreva("digite a sigla de seu estado para saber o valor do frete\n")
+    escreva("mg\n")
+    escreva("rj\n")
+    escreva("ba\n")
+    escreva("sp\n")
+    leia(estados)
+    escolha(estados){
+      caso "mg":
+      escreva("o frete sera 12 reais")
+      pare
+
+         caso "rj":
+      escreva("o frete sera 15 reais")
+      pare
+
+         caso "ba":
+      escreva("o frete sera 20 reais")
+      pare
+
+         caso "sp":
+      escreva("o frete sera 10 reais")
+      pare
+
+    }
+
+  }
+}
