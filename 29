@@ -1,0 +1,44 @@
+programa {
+  funcao inicio() {
+    inteiro opcao, saldo, saldorestante, saque, deposito
+    escreva("escreva seu saldo: ")
+    leia(saldo)
+   enquanto(opcao != 4){
+    escreva("\n1 --- ver saldo\n")
+     escreva("2 --- depositar\n")
+      escreva("3 --- sacar\n")
+      escreva("4 --- sair\n")
+      escreva(" ")
+      
+
+    leia(opcao)
+    escreva("\n ")
+
+    escolha(opcao){
+      caso 1:
+      escreva("o seu saldo e ", saldo,"\n")
+      pare 
+
+      caso 2:
+      escreva("escrevao valor do seu deposito: ")
+      leia(deposito)
+      escreva(" deposito relizado de ", deposito, " deposito realizado, seu novo saldo e ", saldo+deposito)
+      pare 
+
+      caso 3:
+       escreva("escreva o valor do saque\n")
+    leia(saque)
+    saldorestante = saldo - saque
+    se (saldo<saque){
+      escreva("indisponivel, saldo menor que o saque")
+    }
+    senao
+    escreva(" saque realizado de, ", saque , " seu novo saldo e ", saldorestante,"\n")
+    pare
+
+    }
+    }
+
+  }
+  }
+}
