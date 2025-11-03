@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+   
+    inteiro opcao
+    real fahrenheit, celsius
+    escreva("bem vindo ao conversor de unidades, oque quer converter?\n")
+    escreva("1 --- (Celsius para fahrenheit")
+    escreva("2 --- (faremheit para celsius")
+    leia(opcao)
+    escolha(opcao){
+      caso 1: {
+        leia(celsius)
+           fahrenheit = (celsius *9/5) + 32
+        escreva("a temperatura em farenheit e ", fahrenheit)
+        pare
+
+        caso 2:
+        leia(faremheit)
+        celsius = = (celsius *9/5) - 32
+        escreva("a temperatura em celsius e ," celsius)
+        pare
+      }
+     
+
+    }
+
+  }
+}
+
+  }
+}
