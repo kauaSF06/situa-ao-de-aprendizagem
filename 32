@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro funcionarios
+    real salario
+    cadeia i
+    escreva("digiteos nomes dos funcionarios para saber a media salaria\n")
+    para(funcionarios= 1; funcionarios<=5; funcionarios++){
+      escreva("digite o nome do funcionario\n")
+      leia(i)
+      escreva("digite o valor do salario dos funcionarios\n")
+      leia(salario)
+      limpa()
+
+
+    }escreva("a media salarial dos funcionarios e: \n", salario / funcionarios)
+  }
+}
