@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro i, num, total, produtos, desconto, novototal
+    escreva("-----------------------\n")
+    produtos = 0
+    escreva("quantos perifericos voce deseja comprar\n")
+    leia(produtos)
+      para(i=1; i<=produtos; i++){
+        escreva("digite o preço dos perifericos\n")
+        leia(num)
+        total = produtos + num
+
+    }escreva(" o total fica em: ", total)
+    
+    se(total>=500){
+      desconto = (total * 0.10) 
+      novototal = total - desconto
+      escreva("voce recebeu um desconto de 10%\n")
+      escreva("o novo total com desconto e: ", novototal)
+    }
+    
+
+  }
+}
