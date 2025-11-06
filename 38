@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real media, nota, alunos, contador, contador2
+    contador = 0
+    contador2 = 0
+    escreva("digite a sua nota")
+    enquanto(nota != -1){
+       leia(nota)
+       se(alunos)
+       se(nota >+7.0){
+        contador = contador +1
+
+       }media = nota / alunos
+    }escreva("alunos com uma nota maior que 7 e", contador)
+}
+}
