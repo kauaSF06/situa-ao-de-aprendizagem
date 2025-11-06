@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro idade,i, contador
+    real salario
+    contador = 0 
+    escreva(" idade dos funcionario e o salario deles")  
+
+    para(i = 1; i <=20; i++){
+    escreva("funcionario, ", i, ":\n")
+    escreva("digite sua idade\n")
+    leia(idade)
+    escreva("escreva seu salario\n")
+    leia(salario)
+    se((idade >= 30) e (salario >= 3000)){
+      contador = contador + 1
+    
+    }
+
+    } escreva(" a quantidade de pessoas que tem mais de 30 anos e recebem mais de 3000 e ",contador)
+  }
+}
