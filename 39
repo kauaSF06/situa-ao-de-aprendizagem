@@ -1,0 +1,56 @@
+programa {
+  funcao inicio() {
+    inteiro i, votoA, votoB, votonulo, votos
+   
+      escreva("---- bem vindo a urna-----\n")
+      escreva("1 ---- candidato A\n")
+      escreva("2---- candidato B\n")
+      escreva("3---- VOTO BRANCO/NULO\n")
+      escreva("0 ---- para encerrrar a votaçao")
+
+      votoA = 0
+      votoB = 0
+      votonulo = 0
+
+     faca{
+        escreva("coloque o numero do seu candidato")
+        leia(votos)
+
+        enquanto(votos != 0){
+          se(votos == votoA){
+            votoA = votoA + 1
+            
+          }
+          senao se(votos == votoB){
+            votoB = votoB + 1
+            
+          }
+          senao se( votos == votonulo){
+            votonulo = votonulo + 1
+
+          }
+
+          
+        }
+        
+        escreva("---- resultado da eleiçao----\n")
+        escreva("votos do candidato A,", votoA, "votos")
+        escreva("votos do candidato B", votoB, "votos")
+        escreva("votos em nulo e", votonulo, "votos")
+
+        se( votoA> votoB){
+          escreva("o candidato a ganhou")
+        }
+        senao se( votoA < votoB){
+          escreva("candidato B ganhou")
+          
+        }senao
+        escreva(" candidatos empataram")
+
+
+
+      }
+     
+    
+      }
+  }
